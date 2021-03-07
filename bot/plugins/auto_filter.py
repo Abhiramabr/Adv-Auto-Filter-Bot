@@ -210,7 +210,7 @@ async def disconnect(bot, update):
     else:
         await bot.send_message(
             chat_id=group_id,
-            text=f"Having Problem While Disconnecting...Report @CrazyBotsz",
+            text=f"Having Problem While Disconnecting...Report @T_r_oy",
             reply_to_message_id=update.message_id
         )
         return
