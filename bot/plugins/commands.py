@@ -10,7 +10,7 @@ from bot.translation import Translation # pylint: disable=import-error
 async def start(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG')
+        InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/T_r_oy')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/cinemagalaxychat')
     ],[
