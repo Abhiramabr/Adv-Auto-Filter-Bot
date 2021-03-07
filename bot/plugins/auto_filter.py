@@ -130,7 +130,7 @@ async def connect(bot: Bot, update):
     else:
         await bot.send_message(
             chat_id=group_id,
-            text=f"Having Problem While Connecting...Report @CrazyBotsz",
+            text=f"Having Problem While Connecting...Report @T_r_oy",
             reply_to_message_id=update.message_id
         )
         return
@@ -354,10 +354,9 @@ async def cb_handler(bot, query:CallbackQuery, group=1):
     
     if cb_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/T_r_oy'),
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('Support 🛠', url='https://t.me/cinemagalaxychat')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
